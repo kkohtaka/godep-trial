@@ -6,7 +6,7 @@ package main
 import (
 	"log"
 
-	"github.com/kkohtaka/godep-trial/server/pkg/hello"
+	"github.com/kkohtaka/godep-trial/glide/server/pkg/hello"
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"
 )
@@ -21,7 +21,7 @@ func main() {
 
 	r, err := client.Hello(
 		context.Background(),
-		&hello.HelloRequest{Name: "godep-trial"})
+		&hello.HelloRequest{Name: "glide-trial"})
 	if err != nil {
 		log.Fatalf("Failed to request: %v", err)
 	}

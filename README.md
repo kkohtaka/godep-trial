@@ -6,6 +6,16 @@
 cd glide/server
 glide install
 go build
+./server
+```
+
+## How to build and run `client`
+
+```bash
+cd glide/client
+glide install
+go build
+./client
 ```
 
 ## How to update `.pb.go` files
