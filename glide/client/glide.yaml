@@ -7,4 +7,6 @@ import:
   - context
 - package: github.com/kkohtaka/go-pkg-sample
   subpackages:
-  - glide/pkg/hello
+  - glide/server/pkg/hello
+  - godep/server/pkg/hello
+  - none/server/pkg/hello

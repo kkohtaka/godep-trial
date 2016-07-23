@@ -1,15 +1,26 @@
 {
-	"ImportPath": "github.com/kkohtaka/godep-trial/godep",
+	"ImportPath": "github.com/kkohtaka/godep-trial/godep/client",
 	"GoVersion": "go1.6",
 	"GodepVersion": "v74",
+	"Packages": [
+		"github.com/kkohtaka/go-pkg-sample/godep/server/pkg/hello"
+	],
 	"Deps": [
 		{
 			"ImportPath": "github.com/golang/protobuf/proto",
 			"Rev": "874264fbbb43f4d91e999fecb4b40143ed611400"
 		},
 		{
-			"ImportPath": "github.com/kkohtaka/go-pkg-sample/godep/pkg/hello",
-			"Rev": "2407a47cdf07683689a88c2fd8babe3e7cfdfa20"
+			"ImportPath": "github.com/kkohtaka/go-pkg-sample/glide/server/pkg/hello",
+			"Rev": "97e87a6c7adf6b36054561d904ad54df44426d66"
+		},
+		{
+			"ImportPath": "github.com/kkohtaka/go-pkg-sample/godep/server/pkg/hello",
+			"Rev": "97e87a6c7adf6b36054561d904ad54df44426d66"
+		},
+		{
+			"ImportPath": "github.com/kkohtaka/go-pkg-sample/none/server/pkg/hello",
+			"Rev": "97e87a6c7adf6b36054561d904ad54df44426d66"
 		},
 		{
 			"ImportPath": "golang.org/x/net/context",

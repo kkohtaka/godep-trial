@@ -1,14 +1,16 @@
-hash: 487eee828c2143aa49ad0585945e709837ac677ef10d63f749ceebb8cd51d240
-updated: 2016-07-23T15:22:42.778566351+09:00
+hash: c8127459b72fc92e73a68cf5fb1820f7b9b8129fa29ac2b0a29e2159e39f52a7
+updated: 2016-07-23T15:56:45.605981491+09:00
 imports:
 - name: github.com/golang/protobuf
   version: 874264fbbb43f4d91e999fecb4b40143ed611400
   subpackages:
   - proto
 - name: github.com/kkohtaka/go-pkg-sample
-  version: 2407a47cdf07683689a88c2fd8babe3e7cfdfa20
+  version: 97e87a6c7adf6b36054561d904ad54df44426d66
   subpackages:
-  - glide/pkg/hello
+  - glide/server/pkg/hello
+  - godep/server/pkg/hello
+  - none/server/pkg/hello
 - name: golang.org/x/net
   version: 4d38db76854b199960801a1734443fd02870d7e1
   subpackages:

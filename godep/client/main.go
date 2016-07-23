@@ -6,7 +6,9 @@ package main
 import (
 	"log"
 
-	"github.com/kkohtaka/go-pkg-sample/none/pkg/hello"
+	// "github.com/kkohtaka/go-pkg-sample/glide/server/pkg/hello" // cannot compile
+	"github.com/kkohtaka/go-pkg-sample/godep/server/pkg/hello" // can compile
+	// "github.com/kkohtaka/go-pkg-sample/none/server/pkg/hello" // cannot compile
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"
 )
