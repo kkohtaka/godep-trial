@@ -1,4 +1,4 @@
-package: github.com/kkohtaka/godep-trial/server
+package: github.com/kkohtaka/godep-trial/glide/server
 import:
 - package: google.golang.org/grpc
   version: ^1.0.0

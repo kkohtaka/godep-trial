@@ -8,7 +8,7 @@ import (
 	"log"
 	"net"
 
-	"github.com/kkohtaka/godep-trial/server/pkg/hello"
+	"github.com/kkohtaka/godep-trial/glide/server/pkg/hello"
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"
 )

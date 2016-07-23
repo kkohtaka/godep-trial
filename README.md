@@ -3,8 +3,14 @@
 ## How to build and run `server`
 
 ```bash
-cd server
-protoc -I ./pkg/hello/ ./pkg/hello/proto/*.proto --go_out=plugins=grpc:./pkg/hello
+cd glide/server
+glide install
 go build
-./server
+```
+
+## How to update `.pb.go` files
+
+```bash
+cd glide/server
+protoc -I ./pkg/hello/ ./pkg/hello/proto/*.proto --go_out=plugins=grpc:./pkg/hello
 ```
