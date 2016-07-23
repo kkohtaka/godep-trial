@@ -1,5 +1,5 @@
-hash: f6838a6692df18d14ebec0f8d56ed1d809daf7e69daddfb408711afbfb936098
-updated: 2016-07-23T13:29:05.057737036+09:00
+hash: 5be0b99d1cd5fe3d8959f587c300a76f8142bfe301fbb5cf2ce397132e2cf65f
+updated: 2016-07-23T14:43:53.272175684+09:00
 imports:
 - name: github.com/golang/protobuf
   version: 874264fbbb43f4d91e999fecb4b40143ed611400
@@ -8,6 +8,7 @@ imports:
 - name: github.com/kkohtaka/godep-trial
   version: 68725fb96700993abb867f68d22d59e7d843f18d
   subpackages:
+  - server/pkg/hello
   - glide/server/pkg/hello
 - name: golang.org/x/net
   version: 4d38db76854b199960801a1734443fd02870d7e1
@@ -29,4 +30,4 @@ imports:
   - naming
   - transport
   - peer
-devImports: []
+testImports: []

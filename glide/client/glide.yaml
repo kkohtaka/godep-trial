@@ -1,4 +1,4 @@
-package: .
+package: github.com/kkohtaka/godep-trial/glide/client
 import:
 - package: google.golang.org/grpc
   version: ^1.0.0
