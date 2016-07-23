@@ -1,7 +1,0 @@
-package: github.com/kkohtaka/godep-trial/glide/server
-import:
-- package: google.golang.org/grpc
-  version: ^1.0.0
-- package: golang.org/x/net
-  subpackages:
-  - context
